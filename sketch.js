@@ -1,7 +1,6 @@
 let square_size = 50;
 let squareX;
 let squareY;
-let ms;
 
 function setup() {
   createCanvas(400, 400);
@@ -12,7 +11,6 @@ function setup() {
 }
 
 function draw() {
-  ms = millis();
   background(220);
   rect(squareX, squareY, square_size, square_size);
   if (square_size > 50) {
